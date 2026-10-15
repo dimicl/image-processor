@@ -1,0 +1,609 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\faks\\mms\\ImageProcessor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|c:\\faks\\mms\\imageprocessor\\client\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|solutionrelative:client\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|c:\\faks\\mms\\imageprocessor\\client\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|solutionrelative:client\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|c:\\faks\\mms\\imageprocessor\\server\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|solutionrelative:server\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|c:\\faks\\mms\\imageprocessor\\server\\core\\filterfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|solutionrelative:server\\core\\filterfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|c:\\faks\\mms\\imageprocessor\\server\\core\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|solutionrelative:server\\core\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|c:\\faks\\mms\\imageprocessor\\server\\core\\imageprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|solutionrelative:server\\core\\imageprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|c:\\faks\\mms\\imageprocessor\\server\\core\\imageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|solutionrelative:server\\core\\imageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|c:\\faks\\mms\\imageprocessor\\server\\core\\filterpipeline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|solutionrelative:server\\core\\filterpipeline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|c:\\faks\\mms\\imageprocessor\\server\\filters\\invertfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|solutionrelative:server\\filters\\invertfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|c:\\faks\\mms\\imageprocessor\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|c:\\faks\\mms\\imageprocessor\\shared\\dtos\\applyfiltersresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|solutionrelative:shared\\dtos\\applyfiltersresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|c:\\faks\\mms\\imageprocessor\\shared\\utils\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|solutionrelative:shared\\utils\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|c:\\faks\\mms\\imageprocessor\\server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|solutionrelative:server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|c:\\faks\\mms\\imageprocessor\\server\\filters\\timewarpfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|solutionrelative:server\\filters\\timewarpfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|c:\\faks\\mms\\imageprocessor\\server\\filters\\embosslaplacianfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|solutionrelative:server\\filters\\embosslaplacianfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|c:\\faks\\mms\\imageprocessor\\shared\\enums\\filtertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|solutionrelative:shared\\enums\\filtertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|c:\\faks\\mms\\imageprocessor\\shared\\msi\\msiencoder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|solutionrelative:shared\\msi\\msiencoder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|c:\\faks\\mms\\imageprocessor\\shared\\msi\\msidecoder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|solutionrelative:shared\\msi\\msidecoder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|c:\\faks\\mms\\imageprocessor\\shared\\msi\\msiheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|solutionrelative:shared\\msi\\msiheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|c:\\faks\\mms\\imageprocessor\\shared\\msi\\msifile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|solutionrelative:shared\\msi\\msifile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|c:\\faks\\mms\\imageprocessor\\shared\\msi\\msiconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|solutionrelative:shared\\msi\\msiconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|c:\\faks\\mms\\imageprocessor\\shared\\msi\\fastbitmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|solutionrelative:shared\\msi\\fastbitmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|c:\\faks\\mms\\imageprocessor\\shared\\dtos\\uploadresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|solutionrelative:shared\\dtos\\uploadresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|c:\\faks\\mms\\imageprocessor\\shared\\dtos\\uploadrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|solutionrelative:shared\\dtos\\uploadrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|c:\\faks\\mms\\imageprocessor\\shared\\dtos\\filteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|solutionrelative:shared\\dtos\\filteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|c:\\faks\\mms\\imageprocessor\\shared\\dtos\\applyfiltersrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|solutionrelative:shared\\dtos\\applyfiltersrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|c:\\faks\\mms\\imageprocessor\\server\\filters\\brightnessfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|solutionrelative:server\\filters\\brightnessfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|c:\\faks\\mms\\imageprocessor\\shared\\utils\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|solutionrelative:shared\\utils\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|c:\\faks\\mms\\imageprocessor\\shared\\meta\\filtermetadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|solutionrelative:shared\\meta\\filtermetadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|c:\\faks\\mms\\imageprocessor\\shared\\enums\\compressiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|solutionrelative:shared\\enums\\compressiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|c:\\faks\\mms\\imageprocessor\\shared\\enums\\colorspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE8D8178-1092-4F45-AB7E-2C4FE20F555D}|Shared\\Shared.csproj|solutionrelative:shared\\enums\\colorspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|c:\\faks\\mms\\imageprocessor\\server\\filters\\edgeenhancefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|solutionrelative:server\\filters\\edgeenhancefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|c:\\faks\\mms\\imageprocessor\\server\\filters\\colorizegrayscale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|solutionrelative:server\\filters\\colorizegrayscale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|c:\\faks\\mms\\imageprocessor\\server\\filters\\jjnfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|solutionrelative:server\\filters\\jjnfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|c:\\faks\\mms\\imageprocessor\\server\\filters\\pixelatefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|solutionrelative:server\\filters\\pixelatefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|c:\\faks\\mms\\imageprocessor\\server\\filters\\ifilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{343EA221-01B2-419F-BCD5-E4DC6A6603BA}|Server\\Server.csproj|solutionrelative:server\\filters\\ifilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 16,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Client\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Client\\MainWindow.xaml",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Client\\MainWindow.xaml",
+              "RelativeToolTip": "Client\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-21T23:49:04.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Server",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Server\\Server.csproj",
+              "RelativeDocumentMoniker": "Server\\Server.csproj",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Server\\Server.csproj",
+              "RelativeToolTip": "Server\\Server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-21T21:40:02.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FastBitmap.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Shared\\MSI\\FastBitmap.cs",
+              "RelativeDocumentMoniker": "Shared\\MSI\\FastBitmap.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Shared\\MSI\\FastBitmap.cs",
+              "RelativeToolTip": "Shared\\MSI\\FastBitmap.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAUwDMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T19:40:01.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MsiDecoder.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Shared\\MSI\\MsiDecoder.cs",
+              "RelativeDocumentMoniker": "Shared\\MSI\\MsiDecoder.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Shared\\MSI\\MsiDecoder.cs",
+              "RelativeToolTip": "Shared\\MSI\\MsiDecoder.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwDgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T18:26:26.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MsiEncoder.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Shared\\MSI\\MsiEncoder.cs",
+              "RelativeDocumentMoniker": "Shared\\MSI\\MsiEncoder.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Shared\\MSI\\MsiEncoder.cs",
+              "RelativeToolTip": "Shared\\MSI\\MsiEncoder.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwDEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T18:26:11.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MsiFile.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Shared\\MSI\\MsiFile.cs",
+              "RelativeDocumentMoniker": "Shared\\MSI\\MsiFile.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Shared\\MSI\\MsiFile.cs",
+              "RelativeToolTip": "Shared\\MSI\\MsiFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T17:09:58.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UploadRequest.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Shared\\DTOs\\UploadRequest.cs",
+              "RelativeDocumentMoniker": "Shared\\DTOs\\UploadRequest.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Shared\\DTOs\\UploadRequest.cs",
+              "RelativeToolTip": "Shared\\DTOs\\UploadRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T16:35:42.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UploadResponse.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Shared\\DTOs\\UploadResponse.cs",
+              "RelativeDocumentMoniker": "Shared\\DTOs\\UploadResponse.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Shared\\DTOs\\UploadResponse.cs",
+              "RelativeToolTip": "Shared\\DTOs\\UploadResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T16:35:38.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Server\\Core\\Logger.cs",
+              "RelativeDocumentMoniker": "Server\\Core\\Logger.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Server\\Core\\Logger.cs",
+              "RelativeToolTip": "Server\\Core\\Logger.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA2wBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T21:08:34.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MsiHeader.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Shared\\MSI\\MsiHeader.cs",
+              "RelativeDocumentMoniker": "Shared\\MSI\\MsiHeader.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Shared\\MSI\\MsiHeader.cs",
+              "RelativeToolTip": "Shared\\MSI\\MsiHeader.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T21:08:09.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MsiConstants.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Shared\\MSI\\MsiConstants.cs",
+              "RelativeDocumentMoniker": "Shared\\MSI\\MsiConstants.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Shared\\MSI\\MsiConstants.cs",
+              "RelativeToolTip": "Shared\\MSI\\MsiConstants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T21:08:04.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FilterMetadata.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Shared\\Meta\\FilterMetadata.cs",
+              "RelativeDocumentMoniker": "Shared\\Meta\\FilterMetadata.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Shared\\Meta\\FilterMetadata.cs",
+              "RelativeToolTip": "Shared\\Meta\\FilterMetadata.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T21:08:02.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CompressionType.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Shared\\Enums\\CompressionType.cs",
+              "RelativeDocumentMoniker": "Shared\\Enums\\CompressionType.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Shared\\Enums\\CompressionType.cs",
+              "RelativeToolTip": "Shared\\Enums\\CompressionType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T21:08:00.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ColorSpace.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Shared\\Enums\\ColorSpace.cs",
+              "RelativeDocumentMoniker": "Shared\\Enums\\ColorSpace.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Shared\\Enums\\ColorSpace.cs",
+              "RelativeToolTip": "Shared\\Enums\\ColorSpace.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T21:07:58.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FilterAction.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Shared\\DTOs\\FilterAction.cs",
+              "RelativeDocumentMoniker": "Shared\\DTOs\\FilterAction.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Shared\\DTOs\\FilterAction.cs",
+              "RelativeToolTip": "Shared\\DTOs\\FilterAction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T21:07:55.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplyFiltersResponse.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Shared\\DTOs\\ApplyFiltersResponse.cs",
+              "RelativeDocumentMoniker": "Shared\\DTOs\\ApplyFiltersResponse.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Shared\\DTOs\\ApplyFiltersResponse.cs",
+              "RelativeToolTip": "Shared\\DTOs\\ApplyFiltersResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T19:29:57.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Client\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Client\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Client\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Client\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABMBAAAAAAAAAAD4vxoBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T18:56:46.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BrightnessFilter.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Server\\Filters\\BrightnessFilter.cs",
+              "RelativeDocumentMoniker": "Server\\Filters\\BrightnessFilter.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Server\\Filters\\BrightnessFilter.cs",
+              "RelativeToolTip": "Server\\Filters\\BrightnessFilter.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwCIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T18:53:22.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ColorizeGrayscale.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Server\\Filters\\ColorizeGrayscale.cs",
+              "RelativeDocumentMoniker": "Server\\Filters\\ColorizeGrayscale.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Server\\Filters\\ColorizeGrayscale.cs",
+              "RelativeToolTip": "Server\\Filters\\ColorizeGrayscale.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAkwEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T18:52:53.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EdgeEnhanceFilter.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Server\\Filters\\EdgeEnhanceFilter.cs",
+              "RelativeDocumentMoniker": "Server\\Filters\\EdgeEnhanceFilter.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Server\\Filters\\EdgeEnhanceFilter.cs",
+              "RelativeToolTip": "Server\\Filters\\EdgeEnhanceFilter.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAgwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T18:52:45.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EmbossLaplacianFilter.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Server\\Filters\\EmbossLaplacianFilter.cs",
+              "RelativeDocumentMoniker": "Server\\Filters\\EmbossLaplacianFilter.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Server\\Filters\\EmbossLaplacianFilter.cs",
+              "RelativeToolTip": "Server\\Filters\\EmbossLaplacianFilter.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAkwEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T18:52:37.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TimeWarpFilter.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Server\\Filters\\TimeWarpFilter.cs",
+              "RelativeDocumentMoniker": "Server\\Filters\\TimeWarpFilter.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Server\\Filters\\TimeWarpFilter.cs",
+              "RelativeToolTip": "Server\\Filters\\TimeWarpFilter.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAkwDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T18:52:27.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PixelateFilter.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Server\\Filters\\PixelateFilter.cs",
+              "RelativeDocumentMoniker": "Server\\Filters\\PixelateFilter.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Server\\Filters\\PixelateFilter.cs",
+              "RelativeToolTip": "Server\\Filters\\PixelateFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T18:52:14.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "JjnFilter.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Server\\Filters\\JjnFilter.cs",
+              "RelativeDocumentMoniker": "Server\\Filters\\JjnFilter.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Server\\Filters\\JjnFilter.cs",
+              "RelativeToolTip": "Server\\Filters\\JjnFilter.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAkwEoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T18:51:55.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InvertFilter.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Server\\Filters\\InvertFilter.cs",
+              "RelativeDocumentMoniker": "Server\\Filters\\InvertFilter.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Server\\Filters\\InvertFilter.cs",
+              "RelativeToolTip": "Server\\Filters\\InvertFilter.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIA2wA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T18:50:01.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IFilter.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Server\\Filters\\IFilter.cs",
+              "RelativeDocumentMoniker": "Server\\Filters\\IFilter.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Server\\Filters\\IFilter.cs",
+              "RelativeToolTip": "Server\\Filters\\IFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T18:48:47.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FilterType.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Shared\\Enums\\FilterType.cs",
+              "RelativeDocumentMoniker": "Shared\\Enums\\FilterType.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Shared\\Enums\\FilterType.cs",
+              "RelativeToolTip": "Shared\\Enums\\FilterType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T18:47:48.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FilterFactory.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Server\\Core\\FilterFactory.cs",
+              "RelativeDocumentMoniker": "Server\\Core\\FilterFactory.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Server\\Core\\FilterFactory.cs",
+              "RelativeToolTip": "Server\\Core\\FilterFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T18:44:59.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FilterPipeline.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Server\\Core\\FilterPipeline.cs",
+              "RelativeDocumentMoniker": "Server\\Core\\FilterPipeline.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Server\\Core\\FilterPipeline.cs",
+              "RelativeToolTip": "Server\\Core\\FilterPipeline.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAcwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T18:44:08.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ImageProcessingService.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Server\\Core\\ImageProcessingService.cs",
+              "RelativeDocumentMoniker": "Server\\Core\\ImageProcessingService.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Server\\Core\\ImageProcessingService.cs",
+              "RelativeToolTip": "Server\\Core\\ImageProcessingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T18:38:22.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ApplyFiltersRequest.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Shared\\DTOs\\ApplyFiltersRequest.cs",
+              "RelativeDocumentMoniker": "Shared\\DTOs\\ApplyFiltersRequest.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Shared\\DTOs\\ApplyFiltersRequest.cs",
+              "RelativeToolTip": "Shared\\DTOs\\ApplyFiltersRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T18:39:13.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ErrorResponse.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Shared\\Utils\\ErrorResponse.cs",
+              "RelativeDocumentMoniker": "Shared\\Utils\\ErrorResponse.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Shared\\Utils\\ErrorResponse.cs",
+              "RelativeToolTip": "Shared\\Utils\\ErrorResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T18:35:52.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Shared\\Utils\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "Shared\\Utils\\ApiResponse.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Shared\\Utils\\ApiResponse.cs",
+              "RelativeToolTip": "Shared\\Utils\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T18:35:34.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ImageConverter.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Server\\Core\\ImageConverter.cs",
+              "RelativeDocumentMoniker": "Server\\Core\\ImageConverter.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Server\\Core\\ImageConverter.cs",
+              "RelativeToolTip": "Server\\Core\\ImageConverter.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAiwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T18:35:03.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Server\\Program.cs",
+              "RelativeDocumentMoniker": "Server\\Program.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Server\\Program.cs",
+              "RelativeToolTip": "Server\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T18:20:53.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ImageController.cs",
+              "DocumentMoniker": "C:\\faks\\mms\\ImageProcessor\\Server\\Controllers\\ImageController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\ImageController.cs",
+              "ToolTip": "C:\\faks\\mms\\ImageProcessor\\Server\\Controllers\\ImageController.cs",
+              "RelativeToolTip": "Server\\Controllers\\ImageController.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAgwAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T18:20:30.31Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "2eKgA5MfWCE=",
+  "success": true,
+  "projectFilePath": "C:\\faks\\mms\\ImageProcessor\\Client\\Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dimic\\.nuget\\packages\\microsoft.win32.systemevents\\10.0.9\\microsoft.win32.systemevents.10.0.9.nupkg.sha512",
+    "C:\\Users\\dimic\\.nuget\\packages\\system.drawing.common\\10.0.9\\system.drawing.common.10.0.9.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "C:\\faks\\mms\\ImageProcessor\\Client\\Client.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\faks\\mms\\ImageProcessor\\Client\\Client.csproj",
+      "targetGraphs": []
+    }
+  ]
+}

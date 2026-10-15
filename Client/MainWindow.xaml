@@ -1,0 +1,141 @@
+﻿<Window x:Class="Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Image Processor" Height="800" Width="1100">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Column="0" Background="#FFFFFF" BorderBrush="#E0E0E0" BorderThickness="0,0,1,0">
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <StackPanel Margin="12">
+                    <Button Name="BtnLoad" Content="Učitaj sliku" Click="BtnLoad_Click" Height="32" Margin="0,0,0,4"/>
+                    <Button Name="BtnExportMsi" Content="Izvezi .msi" Click="BtnExportMsi_Click" Height="28" Margin="0,0,0,4" IsEnabled="False"/>
+                    <Button Name="BtnExportStandard" Content="Izvezi PNG/JPEG/BMP/GIF" Click="BtnExportStandard_Click" Height="28" Margin="0,0,0,12" IsEnabled="False"/>
+
+                    <Grid Margin="0,0,0,12">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Button Name="BtnUndo" Content="Undo" Click="BtnUndo_Click" Grid.Column="0" Height="28" Margin="0,0,4,0" IsEnabled="False"/>
+                        <Button Name="BtnRedo" Content="Redo" Click="BtnRedo_Click" Grid.Column="1" Height="28" IsEnabled="False"/>
+                    </Grid>
+
+                    <CheckBox Name="ChkCompare" Content="Uporedi sa originalom" Margin="0,0,0,12" Checked="ChkCompare_Changed" Unchecked="ChkCompare_Changed"/>
+
+                    <Separator Margin="0,0,0,8"/>
+                    <TextBlock Text="Filteri" FontWeight="Bold" Margin="0,0,0,6"/>
+
+                    <Button Content="Invert" Click="BtnFilter_Click" Tag="Invert" Margin="0,0,0,4"/>
+
+                    <TextBlock Text="Brightness" Margin="0,4,0,0"/>
+                    <Slider Name="SliderBrightness" Minimum="-100" Maximum="100" Value="0"/>
+                    <Button Content="Primeni Brightness" Click="BtnBrightness_Click" Margin="0,0,0,8"/>
+
+                    <TextBlock Text="Edge threshold"/>
+                    <Slider Name="SliderEdge" Minimum="0" Maximum="100" Value="20"/>
+                    <Button Content="Edge Enhance" Click="BtnFilter_Click" Tag="EdgeEnhance" Margin="0,0,0,8"/>
+
+                    <Button Content="Emboss Laplacian" Click="BtnFilter_Click" Tag="EmbossLaplacian" Margin="0,0,0,8"/>
+
+                    <TextBlock Text="Pixel block size"/>
+                    <Slider Name="SliderPixelate" Minimum="2" Maximum="40" Value="10"/>
+                    <Button Content="Pixelate" Click="BtnFilter_Click" Tag="Pixelate" Margin="0,0,0,8"/>
+
+                    <TextBlock Text="Time warp factor"/>
+                    <Slider Name="SliderTimeWarp" Minimum="0.5" Maximum="3" Value="1.5"/>
+                    <Button Content="Time Warp" Click="BtnFilter_Click" Tag="TimeWarp" Margin="0,0,0,8"/>
+
+                    <Button Content="JJN Dithering" Click="BtnFilter_Click" Tag="JjnDithering" Margin="0,0,0,8"/>
+
+                    <TextBlock Text="Colorize tint (R/G/B)"/>
+                    <Slider Name="SliderColorR" Minimum="0" Maximum="255" Value="255"/>
+                    <Slider Name="SliderColorG" Minimum="0" Maximum="255" Value="150"/>
+                    <Slider Name="SliderColorB" Minimum="0" Maximum="255" Value="80"/>
+                    <Button Content="Colorize Gray" Click="BtnFilter_Click" Tag="Colorize" Margin="0,0,0,8"/>
+
+                    <Separator Margin="0,8,0,8"/>
+                    <TextBlock Text="Lanac" FontWeight="Bold" Margin="0,0,0,4"/>
+                    <ListBox Name="FilterQueue" Height="80" Margin="0,0,0,4"/>
+                    <StackPanel Orientation="Horizontal">
+                        <Button Content="Dodaj" Click="BtnAddQueue_Click" Width="110" Height="26" Margin="0,0,4,0"/>
+                        <Button Content="Primeni" Click="BtnApplyChain_Click" Width="110" Height="26"/>
+                    </StackPanel>
+                    <ComboBox Name="CmbQueueFilter" Margin="0,6,0,0">
+                        <ComboBoxItem Content="Invert" Tag="Invert"/>
+                        <ComboBoxItem Content="Brightness" Tag="Brightness"/>
+                        <ComboBoxItem Content="EdgeEnhance" Tag="EdgeEnhance"/>
+                        <ComboBoxItem Content="EmbossLaplacian" Tag="EmbossLaplacian"/>
+                        <ComboBoxItem Content="Pixelate" Tag="Pixelate"/>
+                        <ComboBoxItem Content="TimeWarp" Tag="TimeWarp"/>
+                        <ComboBoxItem Content="JjnDithering" Tag="JjnDithering"/>
+                        <ComboBoxItem Content="Colorize" Tag="Colorize"/>
+                    </ComboBox>
+
+                </StackPanel>
+            </ScrollViewer>
+        </Border>
+
+        <Grid Grid.Column="1" Background="#EAEAEA">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Border Grid.Column="0" Background="#DDD" Margin="4" Name="PanelOriginal" Visibility="Collapsed">
+                    <Grid>
+                        <TextBlock Text="Original" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="8" FontWeight="Bold"/>
+                        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto"
+                                      MouseLeftButtonDown="Img_MouseLeftButtonDown" MouseLeftButtonUp="Img_MouseLeftButtonUp" MouseMove="Img_MouseMove">
+                            <Grid Name="OriginalContainer" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                <Grid.LayoutTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform x:Name="OriginalScale" ScaleX="1" ScaleY="1"/>
+                                        <TranslateTransform x:Name="OriginalTranslate" X="0" Y="0"/>
+                                    </TransformGroup>
+                                </Grid.LayoutTransform>
+                                <Image Name="ImgOriginal" Stretch="None"/>
+                            </Grid>
+                        </ScrollViewer>
+                    </Grid>
+                </Border>
+
+                <Border Grid.Column="0" Grid.ColumnSpan="2" Background="#CCC" Margin="4" Name="PanelResult">
+                    <Grid>
+                        <TextBlock VerticalAlignment="Top" HorizontalAlignment="Left" Margin="8" FontWeight="Bold"/>
+                        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto"
+                                      MouseLeftButtonDown="Img_MouseLeftButtonDown" MouseLeftButtonUp="Img_MouseLeftButtonUp" MouseMove="Img_MouseMove">
+                            <Grid Name="ImageContainer" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                <Grid.LayoutTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform x:Name="ImgScale" ScaleX="1" ScaleY="1"/>
+                                        <TranslateTransform x:Name="ImgTranslate" X="0" Y="0"/>
+                                    </TransformGroup>
+                                </Grid.LayoutTransform>
+                                <Image Name="ImgDisplay" Stretch="None" MouseWheel="ImgDisplay_MouseWheel"/>
+                            </Grid>
+                        </ScrollViewer>
+                    </Grid>
+                </Border>
+            </Grid>
+
+            <Border Grid.Row="1" Background="#FFFFFF" BorderBrush="#E0E0E0" BorderThickness="0,1,0,0" Padding="10,6">
+                <Grid>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                        <Button Content="Reset" Click="BtnResetZoom_Click" Width="120" Height="24" Margin="0,0,8,0"/>
+                        <TextBlock Name="TxtStatus" VerticalAlignment="Center" Foreground="#555"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </Grid>
+    </Grid>
+</Window>
